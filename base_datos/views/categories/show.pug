@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title Categorías
+  body
+    h1= category.title
+    
+    form(action=`/categories/${category.id}?_method=DELETE` method="POST")
+        input(type="submit" value="Eliminar")

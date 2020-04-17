@@ -1,0 +1,29 @@
+{
+  "name": "base_datos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "9.2.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "connect-pg-simple": "^5.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "method-override": "^3.0.0",
+    "pg": "^7.4.3",
+    "pug": "^2.0.3",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.1.1",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "sqlite3": "^4.0.1"
+  }
+}

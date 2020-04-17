@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": null,
+    "password": null,
+    "database": "proyecto-backend",
+    "host": "127.0.0.1",
+    "dialect": "sqlite",
+    "storage": "./proyecto-backend.sqlite3"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "wqrzbdlzunkujf",
+    "password": "865371e91ddd4de414e6262d73d013224fc32c09c4b09c9ae939a0dbea88f201",
+    "database": "d7g5hmfu35bgs",
+    "host": "ec2-54-83-27-165.compute-1.amazonaws.com",
+    "dialect": "postgres"
+  }
+}
